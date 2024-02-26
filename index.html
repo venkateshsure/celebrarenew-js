@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="con">
+  <div id="newTextAddCon" class="fir-con">
+    <p id="inputText">hi</p>
+  </div>
+    <div className="sec-con">
+        <div id="firCon" className="inner-sec-con">
+          <input
+          id="input"
+          type="text"
+          className="input"
+        />
+            <div className="select-containers">
+              <label for="fontFamily">Font Family :</label>
+              <select id="fontFamily"></select>
+            </div>
+            <div className="select-containers">
+              <label for="fontSize">Font Size:</label>
+              <select id="fontSize"></select>
+            </div>
+            <div className="select-containers">
+              <label for="color">Color:</label>
+              <input type="color" id="color"/>
+            </div>
+            <div className="select-containers">
+              <button id="addButton">Add Text</button>
+            </div>
+            <div id="newElementsContainer"></div>
+        </div>
+    </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
